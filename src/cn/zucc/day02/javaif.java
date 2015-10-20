@@ -45,7 +45,6 @@ public class javaif {
 		}*/
 		System.out.println("请输入会员积分：");
 		int vipvantages = input.nextInt();
-		
 		if(vipvantages >= 8000){
 			System.out.println("该会员享受的折扣是:0.6");
 		}else if(vipvantages >= 4000){
@@ -55,11 +54,7 @@ public class javaif {
 		}else{
 			System.out.println("该会员享受的折扣是:0.9");
 		}
-		
-		
-		
-		
-		
+	
 	
 	}
 
