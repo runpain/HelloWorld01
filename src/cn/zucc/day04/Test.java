@@ -9,7 +9,7 @@ public class Test {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Scanner input = new Scanner(System.in);
+		/*Scanner input = new Scanner(System.in);
 		System.out.println("欢迎您来到宠物店");
 		System.out.println("请输入要领养宠物的名字：");
 		String na = input.next();
@@ -34,7 +34,7 @@ public class Test {
 			System.out.println("狗狗的自白：");
 			System.out.println("我的名字叫"+na+"我的健康值是"+100+"我和主人的亲密程度是"+20+"我的性别是"+str);
 
-		}
+		}*/
 		
 		
 		/*Scanner sc =new Scanner(System.in);
@@ -52,7 +52,19 @@ public class Test {
 		String sex = sc.next();
 		pen.setSex(sex);
 		pen.print();*/
+		/*UsbImplements usbImplements=new UsbImplements();
+		usbImplements.service();
+		usbImplements.service3();
 		
-	}
-
+		Usb usb12 = new UsbImplements(); 
+		usb12.service1();*/
+	
+		Pet pet = new Dog(){} ;
+		Pet pet2 = new Penguin() {};
+		
+		 	Master master = new Master();
+		 	master.Cure(pet);
+		 	master.Play(pet);
+		 	master.Cure(pet2);
+		 	master.Play(pet2);	}
 }

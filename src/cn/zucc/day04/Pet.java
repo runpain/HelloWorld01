@@ -32,7 +32,9 @@ public Pet(String name, int health, int love) {
 public Pet() {
 	super();
 }
-void print(){
+/*void print(){
 	System.out.println("名字为" +name + "健康为" +health+ "爱心值为" +love);
-};
+};*/
+	public abstract void print();
+	public abstract void cure();
 }
