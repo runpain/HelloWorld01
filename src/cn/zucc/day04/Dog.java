@@ -1,6 +1,6 @@
 package cn.zucc.day04;
 
-public abstract class Dog extends Pet {
+public  class Dog extends Pet {
 	/*private String strain ;
 
 	public String getStrain() {

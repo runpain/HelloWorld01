@@ -1,6 +1,6 @@
 package cn.zucc.day04;
 
-public abstract class Penguin extends Pet{
+public  class Penguin extends Pet{
 	private String sex;
 
 	

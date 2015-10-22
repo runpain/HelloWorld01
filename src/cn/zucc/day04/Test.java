@@ -52,19 +52,21 @@ public class Test {
 		String sex = sc.next();
 		pen.setSex(sex);
 		pen.print();*/
-		/*UsbImplements usbImplements=new UsbImplements();
+		UsbImplements usbImplements=new UsbImplements();
 		usbImplements.service();
 		usbImplements.service3();
 		
 		Usb usb12 = new UsbImplements(); 
-		usb12.service1();*/
-	
-		Pet pet = new Dog(){} ;
-		Pet pet2 = new Penguin() {};
+		usb12.service1();
+	/*
+		Pet pet = new Dog() ;
+		Pet pet2 = new Penguin() ;
 		
 		 	Master master = new Master();
 		 	master.Cure(pet);
 		 	master.Play(pet);
 		 	master.Cure(pet2);
-		 	master.Play(pet2);	}
+		 	master.Play(pet2);*/
+		 	
+	}
 }
