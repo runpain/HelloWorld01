@@ -94,9 +94,12 @@ public class arrayJava {
 		Arrays.sort(score);
 		for (int i = score.length-1; i >= 0; i--) {
 			System.out.println(score[i]+"\t");
-			
 		}
-		System.out.println("最大的数字是" + score[4]);
+		Arrays.sort(score);
+		for (int i = 0; i < score.length; i++) {
+				System.out.println("最大的数字是" + score[4]);
+		}
+	
 			
 		
 	}
