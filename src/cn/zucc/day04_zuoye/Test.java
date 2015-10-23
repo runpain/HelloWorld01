@@ -61,7 +61,7 @@ public class Test {
    	 }else{
         	System.out.print("密码长度不能小于6位！");
     	}		
-*/
+
 		Scanner input = new Scanner(System.in);
     	String uname,pwd;		
    		System.out.print("请输入用户名： ");
@@ -73,7 +73,35 @@ public class Test {
     	}else{
     		System.out.print("用户名或密码不匹配，登录失败！");
     	}
+		Scanner input = new Scanner(System.in);
+    	System.out.print("请输入一串数字： ");
+    	String nums = input.next();
+    	StringBuffer str=new StringBuffer(nums);
+    	for(int i=str.length()-3;i>0;i=i-3){
+        		str.insert(i,',');
+    	}
+    	System.out.print(str);*/
+		 Goods gb = new Goods();
+	       Scanner input = new Scanner(System.in);
+	       do{
+	    	   System.out.print("请输入用户名:");
+	    	   String username =input.next();
+	    	   System.out.print("请输入密码:");
+	    	   String pwd =input.next();
+	    	   if(gb.login(username, pwd)){
+	    		   break;
+	    	   }
+	       }while(true); System.out.println("登陆成功!");
+	      
+	       
+	      gb.show();
+	      System.out.print("请输入您批发的商品编号:");
+	      int id = input.nextInt();
+	      System.out.print("请输入批发数量:");
+	      int num = input.nextInt();
+	    System.out.println("您需要付款:"+gb.change(gb.sum(id, num)));
+	}
 
 	}
 
-}
+
