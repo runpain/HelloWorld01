@@ -29,17 +29,12 @@ public class Goods {
 		double money = 0;
 		if (id == 1) {
 			money = (num * 124.23);
-		
 		} else if (id == 2) {
 			money = (num * 4500.0);
-
 		} else if (id == 3) {
 			money = (num * 8800.9);
-	
 		} else if (id == 4) {
 			money = (num * 5000.88);
-	
-
 		} else if (id == 5) {
 			money = (num * 4456.0);
 		}
