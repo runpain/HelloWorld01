@@ -1,11 +1,9 @@
 package cn.zucc.day05;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Scanner;
-
-import javax.print.attribute.Size2DSyntax;
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.Set;
+import java.util.TreeSet;
 
 public class Test {
 
@@ -42,7 +40,7 @@ public class Test {
 		} else {
 			System.out.println("不包含琪琪");
 		}*/
-		Scanner input = new Scanner(System.in);
+		/*Scanner input = new Scanner(System.in);
 		LinkedList <Penguin> list = new LinkedList<Penguin>();
 		String flag ;
 	do {
@@ -83,7 +81,57 @@ public class Test {
 				System.out.println("含有第一只企鹅");
 			} else {
 				System.out.println("不包含第一只企鹅");
-			}		
+			}		*/
+	/*	
+
+		Map countries = new HashMap();
+		countries.put("CN", "中华人民共和国");
+		countries.put("RU", "俄罗斯联邦");
+		countries.put("FR", "法兰西共和国");
+		countries.put("US", "美利坚合众国");
+		
+		String country = (String) countries.get("CN");
+		System.out.println("CN对应的国家是：" + country);
+		
+		System.out.println("Map中共有"+countries.size()+"组数据");
+		
+		countries.remove("FR");
+		System.out.println("Map中包含FR的key吗？" + 
+				countries.containsKey("FR"));
+		
+		System.out.println( countries.keySet() ) ;
+		System.out.println( countries.values() );
+		System.out.println( countries );*/
+//		Penguin pen1 = new Penguin("琪琪", "Q仔");
+//		Penguin pen2 = new Penguin("娥娥", "Q妹");
+//		Penguin pen3 = new Penguin("得得", "Q妹");
+//		Set<Penguin> list = new HashSet<Penguin>();3
+//		list.add(pen1);
+//		list.add(pen2);
+//		list.add(pen3);
+	
+
+		/*for (int i = 0; i < list.size(); i++) {
+			Penguin pen = list.get(i);
+			System.out.println("名字为" + pen.getName() + "\t性别为" + pen.getSex());
+		}*/
+//		Penguin pen1 = new Penguin("琪琪", "Q仔");
+//		Penguin pen2 = new Penguin("娥娥", "Q妹");
+//		Penguin pen3 = new Penguin("得得", "Q妹");
+		Set <Integer> list = new TreeSet<Integer>();
+		list.add(5);
+		list.add(2);
+		list.add(3);
+
+		for (Integer pengui:list) {
+			System.out.println(pengui);
+			
+		}
+		
+		
+		
+		
+
 	}
 
 }

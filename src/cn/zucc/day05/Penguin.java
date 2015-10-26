@@ -23,6 +23,10 @@ public class Penguin {
 	public Penguin() {
 		super();
 	}
+	@Override
+	public String toString() {
+		return "名字为" +name + "\t性别为" + sex;
+	}
 	
 	
 
