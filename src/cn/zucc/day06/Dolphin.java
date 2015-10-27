@@ -10,5 +10,8 @@ public class Dolphin extends Animal{
 	public void shout() {
 		System.out.println("∫£Î‡“Ù...");
 	}
+	public void show(){
+		System.out.print(getName() + "\t0\t");
+	}
 
 }

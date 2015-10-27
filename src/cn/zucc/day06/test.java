@@ -20,13 +20,14 @@ public class test {
 				Cat cat = (Cat) animals[i];
 				cat.show();
 				cat.shout();
-			} else if (animals[i] instanceof Terrestrial) {
+			} else if (animals[i] instanceof Duck) {
 				Duck duck = (Duck) animals[i];
 				System.out.print(duck.getName() + "\t" + duck.getLegNum()+ "\t");
 				animals[i].shout();
-			} else {
-				System.out.print(animals[i].getName() + "\t0\t");
-				animals[i].shout();
+			} else if ((animals[i] instanceof Dolphin)) {
+				Dolphin dolphin = (Dolphin)animals[i];
+				dolphin.show();
+				dolphin.shout();
 			}
 		}
 	}
